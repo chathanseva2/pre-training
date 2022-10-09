@@ -9,6 +9,7 @@ for i in range(1,n):
         w+=m-l[i]
         l+=m-l[i]
     else:
+        
         m=l[i]
         m_ind=i
         l=0
