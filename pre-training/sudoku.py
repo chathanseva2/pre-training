@@ -18,7 +18,9 @@ def valid(board,num,i,j):
     for k in range(len(board)):
         if board[k][j]==num and k!=i:
             return False
-    # checking the grid 
+        
+    # checking the grid
+#    user input metho changed
     grid_x=j//3
     grid_y=i//3
     for k in range(grid_y*3,(grid_y*3)+3):
